@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Welcome.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Padding="5,0,5,0">
+                <Label Text="nyc_phtographer"></Label>
+            </StackLayout>
+            <StackLayout>
+                <Image Source="http://lorempixel.com/1920/1080/nature/3/"></Image>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Padding="5,0,5,0">
+                <Label Text="Like"></Label>
+                <Label Text="Comment"></Label>
+                <Label Text="Share"></Label>
+            </StackLayout>
+            <StackLayout Padding="5,0,5,0">
+                <BoxView Color="Red" HeightRequest="1">
+                </BoxView>
+                <Label Text="700 likes"></Label>
+                <Label Text="This is a short yesterday in Skanor, Sweden, when driving home, from a couple of days of work in denmark"></Label>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
